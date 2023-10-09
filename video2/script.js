@@ -1,0 +1,1 @@
+alert("Welcome to Tanuj Methi first website")
