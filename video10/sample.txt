@@ -1,0 +1,40 @@
+Attributes for <video> Tag:-
+(a)src: Specifies the path to the video file.
+(b)controls: Adds video controls, like play, pause, and volume.
+(c)autoplay: Automatically starts playing the video when the page loads.
+(d)loop: Repeats the video once it ends.
+(e)muted: Mutes the video by default.
+(f)poster: Specifies an image to be displayed before the video starts playing.
+(g)width and height: Specifies the dimensions of the video.
+
+Attributes for <audio> Tag:-
+(a)src: Specifies the path to the audio file.
+(b)controls: Adds audio controls, like play, pause, and volume.
+(c)autoplay: Automatically starts playing the audio when the page loads.
+(d)loop: Repeats the audio once it ends.
+(e)muted: Mutes the audio by default.
+(f)preload: Specifies if and how the audio should be loaded when the page loads ('auto', 'metadata', 'none').
+
+The "preload" attribute can have the following values:
+
+(1)none: This is the default value. It indicates that the browser should not preload the audio file at all. The audio file will only start downloading when the user initiates playback.
+
+(2)metadata: This value tells the browser to preload only the metadata of the audio file, such as its duration and basic information about the audio. This can be useful if you want to display the audio duration to the user without fully loading the audio data.
+
+(3)auto: This value instructs the browser to preload the entire audio file as much as possible without delaying the loading of other important page content. The browser will try to load the audio file in the background so that it's ready to play when the user decides to start it.
+
+SVG Attributes:-
+SVG comes with a set of attributes to control its behavior:
+
+(a)width and height: To set the dimensions.
+(b)viewBox: To set the coordinate system.
+(c)fill and stroke: To set the colors.
+
+Attributes of iFrame:-
+Several attributes can enhance the functionality of an iFrame:
+
+(a)src: Specifies the URL of the page to embed.
+(b)height and width: Define the dimensions.
+(c)frameborder: Indicates whether to display a border.
+(d)scrolling: Controls the scrollbars.
+(e)name: For targeting the iFrame in JavaScript.
